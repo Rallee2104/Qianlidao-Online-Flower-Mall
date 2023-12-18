@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<c3p0-config>
+	<default-config> 
+		<property name="jdbcUrl">
+			<![CDATA[
+				jdbc:mysql://8.134.190.116:3306/goods?useUnicode=true&characterEncoding=UTF8&useServerPrepStmts=true&prepStmtCacheSqlLimit=256&cachePrepStmts=true&prepStmtCacheSize=256&rewriteBatchedStatements=true&useSSL=false
+			]]>
+		</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="user">root</property>
+		<property name="password">l1w2k3w4c</property>
+		<property name="acquireIncrement">5</property>
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">5</property>
+		<property name="maxPoolSize">20</property>
+		<property name="acquireRetryAttempts">3</property>
+		<property name="acquireRetryDelay">1000</property> <!-- 1000ms = 1秒 -->
+	</default-config>
+</c3p0-config>

@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="goods:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/goods_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="goods" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.annotation.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.jms.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.persistence.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.transaction.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/activation.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/javax.resource.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/itcast-tools-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mail.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-io-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-collections4-4.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-lang3-3.12.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/log4j-1.2.17.jar" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mchange-commons-java-0.2.20.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/c3p0-0.9.5.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/c3p0-oracle-thin-extras-0.9.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.47.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="goods/web/Web" />
+    </root>
+  </artifact>
+</component>

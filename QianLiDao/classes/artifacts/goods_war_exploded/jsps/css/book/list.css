@@ -1,0 +1,101 @@
+.pic {
+    display: block;
+    position: relative;
+    margin-bottom: 3px;
+    width: 200px; /* 保持图片大小不变 */
+    height: 200px;
+}
+
+.inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: solid 1px #e5e5e5;
+    padding: 5px; /* 减少内边距为5px */
+    position: absolute;
+    width: calc(230px - 2px - 10px); /* 调整宽度以考虑新的内边距 */
+    height: calc(300px - 2px - 10px); /* 调整高度以考虑新的内边距 */
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    float: left;
+    width: 230px; /* 新宽度为230px */
+    height: 320px;
+    line-height: 18px;
+    position: relative;
+    border-bottom: solid 1px #e5e5e5;
+    margin-right: 10px; /* 可以根据需要调整间隔 */
+}
+
+li div {
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+
+.price {
+    padding-bottom: 2px; /* 减少底部内边距 */
+    margin-top: 5px; /* 减少顶部外边距 */
+    color: #878787;
+    width: 198px; /* 调整宽度以适应新的li宽度 */
+}
+
+.price_n, .price_r, .price_s {
+    font-family: Arial;
+    padding-right: 5px;
+}
+
+.price_n {
+    color: #c30;
+    font-weight: bold;
+}
+
+.price_s {
+    color: #c30;
+}
+
+.price_r {
+    color: #878787;
+    text-decoration: line-through;
+}
+
+.bookname {
+    text-decoration: none; /* 移除下划线 */
+    color: #555555;
+    display: block;
+    overflow: hidden;
+    width: 210px; /* 调整宽度以适应新的li宽度 */
+    font-family: Arial;
+    font-size: 16px; /* 设置字体大小 */
+    font-weight: bold; /* 使文本加粗 */
+}
+
+.bookname:hover {
+    color: #FF6600;
+}
+
+.inner a {
+    color: #018BD3;
+}
+
+.inner a:hover {
+    color: #FF6600;
+}
+
+/*.inner a:visited {*/
+/*    color: #018BD3;*/
+/*}*/
+
+.author-link {
+    text-decoration: none; /* 移除下划线 */
+    display: inline-block;
+    max-width: 198px; /* 调整宽度以适应新的li宽度 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px; /* 设置字体大小 */
+}
